@@ -1,0 +1,75 @@
+.logo-img {
+  width: 130.052px !important;
+  height: 69px !important;
+  flex-shrink: 0;
+  margin-left: 100px;
+}
+.custom-signin-btn {
+  width: 171px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #114c5f;
+  color: #fff;
+}
+.homepage {
+  background: #008db3;
+  width: 1440px;
+  height: 620px;
+  flex-shrink: 0;
+}
+.nav-item.nav-link {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.list-menu {
+  margin-left: 100px;
+}
+.list-menu ul {
+  width: 600px;
+}
+.home-content {
+  position: relative;
+  top: 8rem;
+  left: 12.5rem;
+}
+.home-content p {
+  width: 530px;
+  color: #fff;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.home-content button {
+  width: 190px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  color: #008eb4;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.dog-img {
+  width: 298.127px;
+  height: 394px;
+  flex-shrink: 0;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
