@@ -1,39 +1,49 @@
+/* navbar css */
 .logo-img {
   width: 130.052px !important;
   height: 69px !important;
-  flex-shrink: 0;
   margin-left: 100px;
 }
-.custom-signin-btn {
-  width: 171px;
-  height: 45px;
-  flex-shrink: 0;
-  border-radius: 5px;
+nav button {
+  border: none;
+  margin: 10px;
+  border-radius: 3px;
   background: #114c5f;
   color: #fff;
+  padding: 0.5rem 1.8rem;
 }
+.batch-btn {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.5s ease;
+}
+/* navbar css */
+
+/* homepage css */
+/* homepage css */
+
 .homepage {
   background: #008db3;
-  width: 1440px;
+  width: auto;
   height: 620px;
-  flex-shrink: 0;
 }
-.nav-item.nav-link {
-  color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 2px;
-}
+
 .list-menu {
   margin-left: 100px;
 }
 .list-menu ul {
   width: 600px;
 }
+
 .home-content {
   position: relative;
   top: 8rem;
@@ -72,4 +82,149 @@
   position: relative;
   top: 100px;
   left: 100px;
+}
+.banner {
+  width: 1440px;
+  height: 280px;
+  flex-shrink: 0;
+  background: #e2fbff;
+}
+.banner1 h5 {
+  color: #008db3;
+  text-align: center;
+  font-family: Alex Brush;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 200 !important;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.row {
+  padding-top: 81px !important;
+}
+
+.banner1 p {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.banner-text {
+  color: #000;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 37px;
+}
+.book-btn {
+  color: #008eb4;
+  /* padding: 8px 20px; */
+  width: 294px;
+  height: 53px;
+  border-radius: "5px";
+  background-color: #fff;
+  border: none;
+}
+.advice-content h5 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.advice-content p {
+  color: #000;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.advice-content button {
+  width: 190px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #114c5f;
+  color: #fff;
+  border: none;
+}
+.adviceimg {
+  width: 662px;
+  height: 724px;
+  flex-shrink: 0;
+}
+.promo-box {
+  width: 609px;
+  height: 163px;
+  flex-shrink: 0;
+  background: #ffe6b4;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.promoimg {
+  width: 174.79px !important;
+  height: 260px !important;
+  flex-shrink: 0;
+}
+.read-box {
+  width: 1440px;
+  height: 653px;
+  flex-shrink: 0;
+  background: #f6fffd;
+}
+.testimonial-card .card-up {
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card {
+  min-width: 360px;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  /* margin-top: -60px; */
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.menu li {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo-img {
+    margin-left: 0;
+  }
+  .batch-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .logo-img {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .nav-item,
+  .bag-icon {
+    display: none;
+  }
 }
