@@ -5,7 +5,7 @@ import Home from "../Home/Home";
 // import Products from "../Products/Products";
 // import Promo from "../Promo/Promo";
 // import Read from "../Read/Read";
-// import Slider from "../Slider/Slider";
+import Slider from "../Slider/Slider";
 // import Footer from "../Footer/Footer";
 
 function Routing() {
@@ -13,8 +13,8 @@ function Routing() {
     <>
       <div>
         <Home />
-        {/* <Slider />
-        <Banner />
+        <Slider />
+        {/* <Banner />
         <Advice />
         <Products />
         <Promo />

@@ -55,6 +55,60 @@ nav ul li a {
 
 /*---- homepage css---- */
 
+/*---- services css---- */
+#slider > div > div > h3 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+#slider > div > div > h1 {
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+#slider > div > div {
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.services-card {
+  border: 3px solid #55c8db !important;
+  border-radius: 10px;
+}
+.services-card p {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-top: 9px;
+}
+.services-card button {
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  width: 160px;
+  height: 37px;
+}
+.service-line {
+  width: 208.5px;
+}
+.arraow-slide {
+  width: 50px;
+  height: 35px;
+  position: relative;
+  top: 5rem;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: none;
+}
+/*---- services css---- */
+
 /* 
 .list-menu {
   margin-left: 100px;
@@ -199,6 +253,9 @@ nav ul li a {
   .homePage {
     height: 1000px;
   }
+  #slider > div > div {
+    margin-left: 0px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .nav-item,
@@ -215,9 +272,17 @@ nav ul li a {
   .home-content {
     margin-bottom: 15px;
   }
+  .services-card {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .logo-img {
     margin-left: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .arraow-slide {
+    display: block;
   }
 }
