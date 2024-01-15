@@ -1,6 +1,6 @@
 import Home from "../Home/Home";
 // import Advice from "../Advice/Advice";
-// import Banner from "../Banner/Banner";
+import Banner from "../Banner/Banner";
 // import Customers from "../Customers/Customers";
 // import Products from "../Products/Products";
 // import Promo from "../Promo/Promo";
@@ -14,8 +14,8 @@ function Routing() {
       <div>
         <Home />
         <Slider />
-        {/* <Banner />
-        <Advice />
+        <Banner />
+        {/*<Advice />
         <Products />
         <Promo />
         <Read />

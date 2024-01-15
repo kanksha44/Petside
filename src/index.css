@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+
 /*---- navbar css---- */
 .logo-img {
   width: 130.052px !important;
@@ -108,6 +110,77 @@ nav ul li a {
   display: none;
 }
 /*---- services css---- */
+
+/*---- Banner css---- */
+
+.banner {
+  width: auto;
+  height: 280px;
+  flex-shrink: 0;
+  background: #e2fbff;
+}
+.banner-row {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  height: 100%;
+}
+.list-menu {
+  margin-left: 100px;
+}
+.list-menu ul {
+  width: 600px;
+}
+
+.banner1 h5 {
+  color: #008db3;
+  text-align: center;
+  font-family: "Alex Brush", cursive;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 200 !important;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.row {
+  padding-top: 81px !important;
+}
+
+.banner1 p {
+  color: #000;
+  text-align: center;
+  /* font-family: Montserrat; */
+  font-size: 40px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.banner-text {
+  color: #000;
+  text-align: justify;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 37px;
+  width: 500px;
+}
+.banner2 {
+  display: flex;
+  flex-direction: column;
+}
+.book-btn {
+  color: #008eb4;
+
+  width: 294px;
+  height: 53px;
+  border-radius: "5px";
+  background-color: #fff;
+  border: none;
+}
+/*---- Banner css---- */
 
 /* 
 .list-menu {
@@ -253,8 +326,18 @@ nav ul li a {
   .homePage {
     height: 1000px;
   }
+
   #slider > div > div {
     margin-left: 0px;
+  }
+  .banner2 {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .banner-text {
+    width: auto;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -274,6 +357,13 @@ nav ul li a {
   }
   .services-card {
     margin-bottom: 10px;
+  }
+  .banner {
+    height: 650px;
+  }
+  .banner2 {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1400px) {
