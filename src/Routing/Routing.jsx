@@ -1,5 +1,5 @@
 import Home from "../Home/Home";
-// import Advice from "../Advice/Advice";
+import Advice from "../Advice/Advice";
 import Banner from "../Banner/Banner";
 // import Customers from "../Customers/Customers";
 // import Products from "../Products/Products";
@@ -15,8 +15,8 @@ function Routing() {
         <Home />
         <Slider />
         <Banner />
-        {/*<Advice />
-        <Products />
+        <Advice />
+        {/*<Products />
         <Promo />
         <Read />
         <Customers />

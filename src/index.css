@@ -142,9 +142,6 @@ nav ul li a {
   line-height: normal;
   letter-spacing: 2px;
 }
-.row {
-  padding-top: 81px !important;
-}
 
 .banner1 p {
   color: #000;
@@ -173,7 +170,6 @@ nav ul li a {
 }
 .book-btn {
   color: #008eb4;
-
   width: 294px;
   height: 53px;
   border-radius: "5px";
@@ -182,97 +178,53 @@ nav ul li a {
 }
 /*---- Banner css---- */
 
-/* 
-.list-menu {
-  margin-left: 100px;
+/*---- advice css---- */
+.advice {
+  width: auto;
+  height: 620px;
 }
-.list-menu ul {
-  width: 600px;
+.advice-row {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  height: 100%;
 }
-
-.banner {
-  width: 1440px;
-  height: 280px;
-  flex-shrink: 0;
-  background: #e2fbff;
+.advice-img {
+  width: 662px;
+  height: 724px;
 }
-.banner1 h5 {
-  color: #008db3;
-  text-align: center;
-  font-family: Alex Brush;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 200 !important;
-  line-height: normal;
-  letter-spacing: 2px;
-}
-.row {
-  padding-top: 81px !important;
-}
-
-.banner1 p {
+.advice-content > div > h5 {
   color: #000;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 2px;
-}
-.banner-text {
-  color: #000;
-  text-align: justify;
-  font-family: Montserrat;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 2px;
-  margin-bottom: 37px;
-}
-.book-btn {
-  color: #008eb4;
-
-  width: 294px;
-  height: 53px;
-  border-radius: "5px";
-  background-color: #fff;
-  border: none;
-}
-.advice-content h5 {
-  color: #000;
-  font-family: Montserrat;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  padding-bottom: 40px;
 }
-.advice-content p {
+.advice-content > div > p {
   color: #000;
   text-align: justify;
-  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
 }
-.advice-content button {
-  width: 190px;
-  height: 53px;
-  flex-shrink: 0;
+.advice-content > div > button {
   border-radius: 5px;
   background: #114c5f;
+  width: 150px;
+  height: 45px;
   color: #fff;
+  font-size: 15px;
   border: none;
 }
-.adviceimg {
-  width: 662px;
-  height: 724px;
-  flex-shrink: 0;
-}
+/*---- advice css---- */
+
+/*
+
 .promo-box {
   width: 609px;
   height: 163px;
