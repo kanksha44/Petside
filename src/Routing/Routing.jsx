@@ -2,7 +2,7 @@ import Home from "../Home/Home";
 import Advice from "../Advice/Advice";
 import Banner from "../Banner/Banner";
 // import Customers from "../Customers/Customers";
-// import Products from "../Products/Products";
+import Products from "../Products/Products";
 // import Promo from "../Promo/Promo";
 // import Read from "../Read/Read";
 import Slider from "../Slider/Slider";
@@ -16,8 +16,8 @@ function Routing() {
         <Slider />
         <Banner />
         <Advice />
-        {/*<Products />
-        <Promo />
+        <Products />
+        {/* <Promo />
         <Read />
         <Customers />
         <Footer /> */}
