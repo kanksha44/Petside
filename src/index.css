@@ -403,6 +403,9 @@ nav ul li a {
   .product-text {
     width: 100%;
   }
+  .payment-box {
+    display: none;
+  }
 }
 @media screen and (max-width: 1200px) {
   .nav-item,
