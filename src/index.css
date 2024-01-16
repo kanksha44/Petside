@@ -6,7 +6,7 @@
   height: 69px !important;
   margin-left: 100px;
 }
-.nav button {
+.login-btn {
   border: none;
   margin: 10px;
   border-radius: 3px;
@@ -191,8 +191,7 @@ nav ul li a {
   height: 100%;
 }
 .advice-img {
-  width: 662px;
-  height: 724px;
+  width: 100%;
 }
 .advice-content > div > h5 {
   color: #000;
@@ -278,6 +277,7 @@ nav ul li a {
 .product-card > .card {
   margin: 30px 0;
 }
+
 .bgimg {
   position: relative;
   z-index: 1;
@@ -285,6 +285,10 @@ nav ul li a {
 .product-img {
   position: absolute;
   z-index: 9;
+  max-width: 100%;
+}
+.mycontainer {
+  max-width: 95%;
 }
 /*---- products css---- */
 

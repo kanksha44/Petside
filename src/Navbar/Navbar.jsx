@@ -56,10 +56,10 @@ const Navbar = () => {
             </div>
 
             <div className="mx-3 batch-btn">
-              <button type="button" className="mx-2">
+              <button type="button" className="login-btn mx-2">
                 Sign in
               </button>
-              <button type="button" className="mx-2">
+              <button type="button" className="login-btn mx-2">
                 Register
               </button>
             </div>

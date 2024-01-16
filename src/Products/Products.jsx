@@ -37,7 +37,7 @@ const data = [
 const Products = () => {
   return (
     <section id="product" className="product">
-      <div className="container py-5">
+      <div className="container mycontainer py-5">
         <div className="row product-content">
           <h4>Pet </h4>
           <h4>Food Products</h4>
@@ -51,7 +51,7 @@ const Products = () => {
           {data.map((item, index) => (
             <div
               key={index}
-              className="product-card col-sm-6 col-lg-2 col-md-3"
+              className="product-card col-xl-3 col-md-4 col-sm-6"
             >
               <div className="card-header d-flex justify-content-between order-success">
                 <p>{item.discount}</p>
@@ -59,9 +59,15 @@ const Products = () => {
                   <i className="bi bi-heart"></i>
                 </p>
               </div>
-              <div className="card-body text-success">
-                <img src={item.img} alt="" className="product-img" />
-                <img src={item.bgimg} alt={item.bgimg} className="bgimg" />
+              <div className="card-body text-center text-success">
+                <div className="img-box">
+                  <img src={item.img} alt="" className="product-img" />
+                  <img
+                    src={item.bgimg}
+                    alt={item.bgimg}
+                    className="img-fluid bgimg"
+                  />
+                </div>
                 <h5 className="card-title text-center text-black mt-5">
                   {item.headline}
                 </h5>
