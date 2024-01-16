@@ -328,38 +328,43 @@ nav ul li a {
 }
 /*---- read css---- */
 
-/*
+/*---- customer css---- */
 
+/*---- customer css---- */
 
-
-.read-box {
-  width: 1440px;
-  height: 653px;
-  flex-shrink: 0;
-  background: #f6fffd;
-}
 .testimonial-card .card-up {
   overflow: hidden;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
 .testimonial-card {
-  min-width: 360px;
+  /* min-width: 360px; */
   display: flex;
   justify-content: space-between !important;
   align-items: center;
+  border-radius: 50px 50px 0px 0px;
 }
 .testimonial-card .avatar {
-  width: 110px;
- 
+  width: 100%;
   overflow: hidden;
-  border: 3px solid #fff;
-  border-radius: 50%;
+  border: none;
 }
-.menu li {
-  margin-right: 50px;
-} */
-
+.testimonial-card > .card-body {
+  background-color: #000;
+}
+/* footer css */
+.footer > footer > h5 {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding-top: 20px;
+}
+/* footer css */
 @media screen and (max-width: 768px) {
   .logo-img {
     margin-left: 0;

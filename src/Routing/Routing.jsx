@@ -1,12 +1,12 @@
 import Home from "../Home/Home";
 import Advice from "../Advice/Advice";
 import Banner from "../Banner/Banner";
-// import Customers from "../Customers/Customers";
+import Customers from "../Customers/Customers";
 import Products from "../Products/Products";
 import Promo from "../Promo/Promo";
 import Read from "../Read/Read";
 import Slider from "../Slider/Slider";
-// import Footer from "../Footer/Footer";
+import Footer from "../Footer/Footer";
 
 function Routing() {
   return (
@@ -19,8 +19,8 @@ function Routing() {
         <Products />
         <Promo />
         <Read />
-        {/*<Customers />
-        <Footer /> */}
+        <Customers />
+        <Footer />
       </div>
     </>
   );

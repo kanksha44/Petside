@@ -4,18 +4,21 @@ const data = [
     Names: "Ana & Tobby",
     desc: "Amazing products & delivery on time.",
     rating: "🦴🦴🦴🦴🦴🦴",
+    bgColor: "#FFE6B4",
   },
   {
     image: "/src/assets/customer1.png",
     Names: "Ana & Tobby",
     desc: "Amazing products & delivery on time.",
     rating: "🦴🦴🦴🦴🦴🦴",
+    bgColor: "#E2FBFF",
   },
   {
     image: "/src/assets/customer1.png",
     Names: "Ana & Tobby",
     desc: "Amazing products & delivery on time.",
     rating: "🦴🦴🦴🦴🦴🦴",
+    bgColor: "#ffe2e7",
   },
 ];
 
@@ -25,8 +28,11 @@ const Customers = () => {
       <h4>Happy Customer</h4>
       <div className="row text-center">
         {data.map((item, index) => (
-          <div className="col mb-5" key={index}>
-            <div className="card testimonial-card">
+          <div className="col-lg-4 mb-5" key={index}>
+            <div
+              className="card testimonial-card"
+              style={{ backgroundColor: item.bgColor }}
+            >
               <div className="avatar">
                 <img
                   src={item.image}
@@ -34,7 +40,7 @@ const Customers = () => {
                   alt="dog-cust"
                 />
               </div>
-              <div className="card-body">
+              <div className="card-body text-white">
                 <h4 className="mb-4">{item.Names}</h4>
                 <p className="dark-grey-text mt-4">
                   <i className="fas fa-quote-left pe-2"></i>Lorem ipsum dolor
@@ -47,7 +53,7 @@ const Customers = () => {
         ))}
       </div>
       <div className="row">
-        <button className="w-25 m-auto">View More</button>
+        <button className="w-25 login-btn m-auto">View More</button>
       </div>
     </div>
   );
