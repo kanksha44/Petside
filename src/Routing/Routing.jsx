@@ -4,7 +4,7 @@ import Banner from "../Banner/Banner";
 // import Customers from "../Customers/Customers";
 import Products from "../Products/Products";
 import Promo from "../Promo/Promo";
-// import Read from "../Read/Read";
+import Read from "../Read/Read";
 import Slider from "../Slider/Slider";
 // import Footer from "../Footer/Footer";
 
@@ -18,8 +18,8 @@ function Routing() {
         <Advice />
         <Products />
         <Promo />
-        {/*<Read />
-        <Customers />
+        <Read />
+        {/*<Customers />
         <Footer /> */}
       </div>
     </>

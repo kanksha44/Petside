@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import dog from "../assets/image 1.png";
 const HomePage = () => {
   return (
@@ -15,9 +14,7 @@ const HomePage = () => {
                 consequat justo ac libero tincidunt, a consequat lectus
                 fermentum.
               </p>
-              <a href="#" className="btn ShopNow-btn">
-                Shop Now
-              </a>
+              <button className="btn ShopNow-btn">Shop Now</button>
             </div>
           </div>
           <div className="d-flex justify-content-center col-lg-6">

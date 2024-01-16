@@ -319,6 +319,15 @@ nav ul li a {
 }
 /*---- promo css---- */
 
+/*---- read css---- */
+.read-row {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  height: 100%;
+}
+/*---- read css---- */
+
 /*
 
 
