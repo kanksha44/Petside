@@ -1,4 +1,4 @@
-import dog from "../assets/read.png";
+// import dog from "../assets/read.png";
 
 const Read = () => {
   return (
@@ -19,7 +19,7 @@ const Read = () => {
             </div>
           </div>
           <div className="col-lg-6 d-flex justify-content-center">
-            <img src={dog} alt="dog img" className="dog-img" />
+            {/* <img src={dog} alt="dog img" className="dog-img" /> */}
           </div>
         </div>
       </div>

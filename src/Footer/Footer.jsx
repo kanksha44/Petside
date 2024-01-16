@@ -70,15 +70,21 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center w-100 d-flex justify-content-around p-3">
-          <div>@ all rights reserved</div>
-          <ul className="d-flex list-unstyled">
-            <li className="mx-2">Our Services</li>
-            <li className="mx-2">About Us</li>
-            <li className="mx-2">Shipping</li>
-            <li className="mx-2">FAQ</li>
-            <li className="mx-2">Contact</li>
-          </ul>
+        <div className="container">
+          <div className="row footer-last">
+            <div className="col-sm-6">
+              <div>@ all rights reserved</div>
+            </div>
+            <div className="col-sm-6">
+              <ul className="d-flex list-menu list-unstyled">
+                <li>Our Services</li>
+                <li>About Us</li>
+                <li>Shipping</li>
+                <li>FAQ</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </footer>
     </section>

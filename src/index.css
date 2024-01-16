@@ -125,12 +125,15 @@ nav ul li a {
   justify-content: center;
   height: 100%;
 }
-.list-menu {
+/* .list-menu {
   margin-left: 100px;
+} */
+.list-menu li{
+  padding: 10px;
 }
-.list-menu ul {
+/* .list-menu ul {
   width: 600px;
-}
+} */
 
 .banner1 h5 {
   color: #008db3;
@@ -364,6 +367,7 @@ nav ul li a {
   letter-spacing: 2px;
   padding-top: 20px;
 }
+
 /* footer css */
 @media screen and (max-width: 768px) {
   .logo-img {
@@ -406,6 +410,12 @@ nav ul li a {
   .payment-box {
     display: none;
   }
+  .list-menu {
+    flex-direction: column;
+  }
+  /* .footer-last.list-menu {
+    display: block !important;
+  } */
 }
 @media screen and (max-width: 1200px) {
   .nav-item,
