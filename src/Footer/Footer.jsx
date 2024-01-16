@@ -73,7 +73,7 @@ const Footer = () => {
         <div className="container">
           <div className="row footer-last">
             <div className="col-sm-6">
-              <div>@ all rights reserved</div>
+              <div className="pt-2">@ all rights reserved</div>
             </div>
             <div className="col-sm-6">
               <ul className="d-flex list-menu list-unstyled">
